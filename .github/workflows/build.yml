@@ -19,7 +19,11 @@ on:
         required: false
   #schedule:
     #- cron: '0 12 * * *'
-
+permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
 env:
   DOCKER_BUILDKIT: 1
 
