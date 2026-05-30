@@ -27,7 +27,6 @@ ffbuild_depends() {
     echo davs2
     echo dvd
     echo fdk-aac
-    echo ffnvcodec
     echo frei0r
     echo gme
     echo kvazaar

@@ -43,7 +43,7 @@ ffbuild_dockerbuild() {
 
         local myconf=(
             --host="$FFBUILD_TOOLCHAIN"
-            --with-default-win32-winnt="0x601"
+            --with-default-win32-winnt="0xA00"
             --with-default-msvcrt=ucrt
             --enable-idl
             --enable-sdk=all
