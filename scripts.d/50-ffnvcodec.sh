@@ -14,7 +14,7 @@ SCRIPT_BRANCH3="sdk/11.1"
 ffbuild_enabled() {
     [[ $TARGET == winarm64 ]] && (( $(ffbuild_ffver) <= 801 )) && return -1
     (( $(ffbuild_ffver) >= 404 )) || return -1
-    return 0
+    return -1
 }
 
 ffbuild_dockerdl() {
